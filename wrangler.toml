@@ -1,3 +1,11 @@
-name = "my-worker"
-main = "src/index.js" # change to your script path
+name = "my-html-site"          # name of your site on Cloudflare
+main = ""                      # leave empty for pure static site
+type = "javascript"
+
+# Static site configuration
+site = { 
+  bucket = "./",               # your index.html and other files are in root
+  include = ["**/*"]           # include all files (HTML, CSS, JS, images, etc.)
+}
+
 compatibility_date = "2026-01-01"

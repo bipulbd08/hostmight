@@ -1,0 +1,278 @@
+  .sub_bannercon.overlay-gra{
+    float: left;
+    width: 100%;
+    background: url(../assets/images/banner-bg.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding-bottom:60px;
+}
+
+.sub_bannercon.overlay-gra:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: -moz-linear-gradient(3deg, #B71CFF 0%, #006480 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #B71CFF), color-stop(100%, #006480));
+    background: -webkit-linear-gradient(3deg, #B71CFF 0%, #006480 100%);
+    background: -o-linear-gradient(3deg, #B71CFF 0%, #006480 100%);
+    background: -ms-linear-gradient(3deg, #B71CFF 0%, #006480 100%);
+    background: linear-gradient(87deg, #B71CFF 0%, #006480 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B71CFF', endColorstr='#006480',GradientType=1 );
+    background-color: #006480;
+    opacity: 0.7;
+}
+.sub_bannercon.overlay-gra .sub_banner_box{
+    height:auto;
+    padding-top:10px;
+}
+.text-center-custom-sufi {
+    text-align: center;
+    padding-top: 50px;
+}
+.text-center-custom-sufi h1{
+    font-weight:500;
+}
+.text-center-custom-sufi p {
+    color: #dfdfdf;
+    font-size: 24px;
+    font-weight:400;
+}
+
+.search-box-domain form {
+    width: 100%;
+    position: relative;
+    float: left;
+    overflow:hidden;
+}
+
+.search-box-domain form input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 0 10px 10px 0;
+}
+
+.search-box-domain form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+     min-width: 240px;
+    padding: 16px 0;
+    background-color: #267bca;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    border-radius: 0 10px 10px 0;
+    font-size: 22px;
+    top: 1.5px;
+    right: 1.5px;
+    text-align: center;
+    cursor: pointer;
+}
+.hot-deals-box-dmn{
+    width:100%;
+    padding-top:20px;
+   float: left;
+   padding-bottom:50px;
+   
+}
+.hot-deals-box-dmn  ul{
+    background-color: rgba(0,0,0,0.4);
+    padding:  4px 20px;
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    border-radius:5px;
+    
+}
+.hot-deals-box-dmn ul li{
+    display:inline-block;
+    position: relative;
+
+	text-align: center;
+	color:#fff;
+	font-size:16px;
+	padding:0 1.5%;
+	padding-bottom:5px;
+}
+.hot-deals-box-dmn ul li:first-child{
+    padding:0;
+    padding-right:10%;
+}
+.hot-deals-box-dmn ul li img{
+    display:inline-block;
+    max-width:15px;
+}
+.hot-deals-box-dmn ul li h4{
+    display:inline-block;
+    padding-left:14px;
+    color:#fff;
+    font-size:18px;
+    font-weight:400;
+    
+}
+.sub_bannercon.overlay-gra .text-center-price{
+    text-align:center;
+    color:#fff;
+    font-weight: 300;
+}
+
+    .price-logo-down{
+    width:100%;
+    background-color:#fff;
+    padding:20px 0;
+    float:left;
+}
+.price-logo-down ul{
+    display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.price-logo-down ul li{
+    position: relative;
+	-ms-flex-positive: 1;
+	-webkit-box-flex: 1;
+	flex-grow: 1;
+	text-align: center;
+	
+}
+.price-logo-down ul li img{
+    max-width:100%;
+    max-height:50px;
+}
+.price-logo-down ul li p{
+    font-weight:300;
+	color:#0d0d0d;
+	margin:0;
+}
+
+@media only screen and (max-width : 767px) {
+    .price-logo-down ul{
+        display:inline-block;
+    }
+    .price-logo-down ul li{
+            -ms-flex-positive: unset;
+            
+    -webkit-box-flex: unset;
+    flex-grow: unset;
+    display:inline-block;
+    padding:15px 2%;
+    text-align:center;
+    }
+    .search-box-domain form button{
+        min-width:140px;
+    }
+}
+
+
+.search-box-domain form{
+    overflow:hidden;
+        border-radius: 0 10px 10px 0;
+}
+
+
+
+
+
+
+
+.blue-bg {
+    background:#fff;
+    padding: 200px;
+    }
+
+
+    .container {
+        position:relative;
+        box-sizing:border-box;
+        margin:0 auto;
+        }
+        .container:after,.row:after,.clear {
+            content:"";
+            display:table;
+            clear:both;
+            }
+
+    .product-plans .product-intro,.product-intro {
+                font-size:2rem;
+                line-height:4rem;
+                text-align:center;
+                }
+                
+     .product-plans .product-intro {
+                margin-bottom:10rem;
+                }
+                .legal-section {
+                    width:100%;
+                    float:left;
+                    text-align:center;
+                    }
+                    
+                    .legal-section li {
+                    width:30%;
+                    height:100%;
+                    float:left;
+                    margin:0 3% 50px 0;
+                    }
+                    
+                    .legal-section a {
+                    cursor:pointer;
+                    display:inline-block;
+                    }
+                    
+                    .legal-section div {
+                    width:100%;
+                    height:100%;
+                    min-height:400px;
+                    background:#fff;
+                    border-bottom:4px #a9c5e5 solid;
+                    box-shadow:0 0 12px #ddd;
+                    margin:0;
+                    padding:20px 0;
+                    }
+                    
+                    .legal-section div:hover {
+                    background:#fcfcfc;
+                    cursor:pointer;
+                    border-color:#4d7ab5;
+                    }
+                    
+                    .legal-section h2 {
+                    width:75%;
+                    color:#f37720;
+                    font-size:1.5em;
+                    margin:0 auto 20px;
+                    }
+                    
+                    .legal-section p {
+                    width:86%;
+                    color:#262626;
+                    margin:0 auto;
+                    }
+                    
+                    .legal-section.software h2 {
+                    color:#262626;
+                    font-size:1.5em;
+                    margin:10px auto;
+                    }
+                    
+                    .legal-section.software span {
+                    color:#f37720;
+                    display:block;
+                    }

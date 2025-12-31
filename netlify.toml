@@ -1,0 +1,5 @@
+[build]
+  publish = "."   # or your build folder, e.g., "dist"
+
+[build.processing]
+  clean_urls = false   # IMPORTANT: keeps .html in URLs

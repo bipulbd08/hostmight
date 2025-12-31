@@ -1,0 +1,697 @@
+@media screen and (max-width: 980px){
+.topnav, .headerbox, .domaincon .domain_box{
+	padding:13px 2%;
+	width:96%;
+}
+.banner{
+	padding:82px 2% 0;
+	width:96%;
+}
+.domaincon .domain_box .search{
+	width:78%;
+}
+.domaincon .domain_box input[type="text"]{
+	width:82%;
+}
+.domaincon .domain_box{
+	margin-bottom:10px;
+}
+.domain_box .btn1 {
+    float: left;
+    margin: 0 0 0 5px;
+}
+.domain_box .btn1 a{
+	padding:14px 21px;
+}
+.domain_lable ul li span{
+	font-size:18px;
+	line-height:20px;
+}
+.paddindbox{
+	padding:40px 2%;
+	width:96%;
+}
+.feature_tabs .smallbox{
+	padding:20px 3%;
+	min-height:100px;
+}
+.plan1{
+	float:none;
+	display:inline-block;
+	margin-right:15px;
+	vertical-align:top;
+}
+.supportbox, .footer_box{
+	width:96%;
+	padding:0 2%;
+}
+.footer_box{
+	padding:40px 2%;
+}
+.footer_box .sitemap{
+	width:21.7%;
+}
+.copyrightcon{
+	width:96%;
+	padding:28px 2%;
+}
+/************SUB PAGE*******************/
+.sub_banner_box{
+	padding:45px 2% 0;
+	width:96%;
+}
+.subplan1 .btn1 a{
+	padding:14px 60px;
+}
+.subplanbox p{
+	margin:0 0 30px;
+}
+.featurebox .smallbox3{
+	width:243px;
+	min-height:inherit;
+}
+.featurebox .smallbox3 .tab_text{
+	width:70%;
+}
+.cpanel_box > .box_rt{
+	width:49%;
+	margin:0;
+}
+.cpanel_box > .box_rt ul li{
+	line-height:32px;
+}
+/********** about page*************/
+.tabs_box ul.tabs li{
+	width:31.5% !important;
+}
+}
+@media screen and (max-width:920px){
+#nav ul > li:last-child {
+	margin-left:5px;
+}
+.banner_text{
+	width:52%;
+}
+.domaincon .domain_box .search, .domain_box .btn1{
+	float:none;
+	margin:0;
+	display:inline-block;
+}
+.domaincon .domain_box .search{
+	width:68%;
+	padding:0 10px;
+}
+.domaincon .domain_box input[type="text"]{
+	width:80%;
+	margin:0;
+}
+.domaincon .domain_box select{
+	background:none;
+	text-align:center;
+	
+}
+.copyright p a{
+	padding:0 5px;
+}
+/***********subpage***********/
+.sub_banner_text h1 {
+    font-size: 48px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.featurebox .smallbox3{
+	padding:20px 2%;
+	width:252px;
+	margin-right:10px;
+}
+.box1 p{
+	text-align:justify;
+	margin:0 0 20px;
+}
+.box1 .img_holder{
+	margin-left:70px;
+}
+}
+@media screen and (max-width: 840px){
+#nav ul > li > a{
+	padding:14px;
+}
+.domaincon .domain_box select{
+	width:75px;
+}
+.supportbox h3, .call-text .phone{
+	font-size:29px;
+	line-height:34px;
+}
+.copyright{
+	text-align:center;
+}
+.copyright p{
+	margin:0 0 10px;
+}
+.copyright p, .copyright ul.socialbox{
+	float:none;
+	display:inline-block;
+}
+/***********Subpage************/
+.subplan1 .btn1 a{
+	padding:14px 40px;
+}
+.featurebox .smallbox3{
+	width:229px;
+}
+.featurebox h3, .datacenter h3, .site_box h3, .cpanel_box h3, .cpanel_box_text h3, .team_box h3{
+	margin-bottom:25px;
+}
+.cpanel_box{
+	text-align:center;
+}
+.box_lt, .cpanel_box > .box_rt{
+	float:none;
+	display:inline-block;
+}
+.cpanel_box > .box_rt{
+	text-align:left;
+	margin:15px 0 0;
+	width:100%;
+}
+.featurebox .smallbox3{
+	width:48% !important;
+	margin:0 10px 0 0 !important;
+}
+.featurebox .smallbox3:last-child{
+	margin-right:0 !important;
+}
+/********CONTACT PAGE**************/
+.formbox ul.list2 li:first-child{
+	width:28%;
+	margin:0 ;
+}
+.formbox ul.list2 li{
+	width:33%;
+}
+.feature_tabs .smallbox4{
+	min-height:inherit;
+}
+.feature_tabs .smallbox4 .tab_text{
+	width:78%;
+}
+.smalbox_last .tab_text {
+    width: 90% !important;
+}
+/********* about page***********/
+.about_content p{
+	margin:0 0 10px;
+}
+.about_content h3{
+	margin:0 0 25px;
+}
+.about_content p:last-child{
+	margin:0;
+}
+.feature_tabs .smallbox5{
+	text-align:center;
+	min-height:156px;
+}
+.feature_tabs .smallbox5 .icon {
+    display: inline-block;
+    float: none !important;
+    margin: 0 auto;
+}
+.featurebox .smallbox5 .tab_text {
+    float: none !important;
+    width: 100%;
+}
+.feature_tabs .smallbox5:last-child{
+	margin:0;
+}
+}
+@media screen and (max-width: 800px){
+.bannercon{
+	height:auto;
+}
+.domaincon{
+	padding:30px 0 ;
+	margin:0;
+}
+.banner{
+	height:auto;
+	padding:40px 2%;
+	width:96%;
+}
+.headerbox{
+	text-align:center;
+	width:100%;
+	padding:28px 0 0;
+}
+.headerbox .logo{
+	display:inline-block;
+	float:none;
+	margin-bottom:20px;
+}
+.banner_text{
+	width:100%;
+	padding:30px 0;
+	text-align:center;
+}
+.banner h1, .banner h2, .banner_text .banner_price, .banner_text > ul, .banner_text ul li{
+	float:none;
+	display:inline-block;
+}
+.banner_text > ul, .banner_text ul li{
+	width:100%;
+}
+.banner .btn1, .banner .btn2{
+	float:none;
+}
+.banner h1{
+	font-size:44px;
+	line-height:46px;
+}
+.banner_text .banner_price, .banner h2{
+	margin-bottom:15px;
+}
+.mainbox h3{
+	font-size:35px;
+	line-height:35px;
+}
+.feature_tabs .smallbox{
+	width:94%;
+	min-height:inherit;
+	margin:0 0 10px;
+}
+
+.feature_tabs > div:last-child{
+	margin-bottom:0;
+}
+.plan1{
+	width:100%;
+	padding:20px 0;
+	margin-right:0;
+	margin-bottom:20px;
+}
+.plan1:last-child{
+	margin-bottom:0;
+}
+.planbox{
+	padding:30px 0 0;
+}
+.imageholder{
+	margin:0 auto 10px;
+}
+.supportbox h3{
+	font-size:24px;
+	line-height:30px;
+}
+.call-text .phone{
+	font-size:24px;
+}
+.call-text{
+	margin:20px 0 0;
+}
+.datacenter h3{
+	margin:0 0 25px;
+}
+.small-textbox{
+	text-align:center;
+}
+.small-textbox > div .imageholder2{
+	float:none;
+	display:table;
+	margin:0 auto 10px;
+}
+.footer_box .sitemap {
+    padding: 0 0 30px;
+	margin:0 0 20px;
+    text-align: center;
+    width: 100%;
+	border-bottom:2px solid #f45e40 ;
+}
+.footer_box .sitemap h5{
+	border-left:none;
+}
+.footer_box .sitemap:last-child{
+	box-shadow:none;
+	margin:0;
+	border:none;
+	padding:0;
+}
+/**********SUB PAGE**************/
+.sub_banner_text{
+	width:94%;
+}
+.sub_banner_box{
+	height:auto;
+	text-align:center;
+	padding:30px 2%;
+}
+.featurebox .smallbox3 {
+    margin: 0 15px 0 0 !important;
+    width: 28% !important;
+}
+.feature_tabs .smallbox .icon span{
+	font-size:40px;
+}
+.featurebox .smallbox3 .tab_text{
+	width:76%;
+}
+.subplanbox p {
+    margin: 0 0 10px;
+}
+/************Contact page*************/
+.feature_tabs .smallbox4 .tab_text{
+	width:90%;
+}
+.contact_box h4{
+	font-size:35px;
+	line-height:37px;
+}
+.formbox{
+	width:100%;
+}
+.formbox ul.list2 li:first-child{
+	width:14%;
+	margin:0 10px 0 0;
+}
+.formbox ul.list2 li{
+	margin:0 10px 0 0;
+}
+.formbox ul.list2 li .btn1{
+	float:left !important;
+}
+
+}
+@media screen and (max-width: 768px){
+.domaincon .domain_box select{
+	background:none;
+	text-align:center;
+}
+.domain_lable ul li{
+	line-height:24px;
+}
+.featurebox .smallbox3 {
+    margin: 0 15px 0 0 !important;
+    width: 27.9% !important;
+}
+.cpanel_box .box_lt .img_holder img{
+	width:100%;
+}
+}
+@media screen and (max-width: 667px){
+.topnav_box{
+	text-align:center;
+}
+.topnav_box p, .topnav_box ul{
+	float:none;
+	display:inline-block;
+}
+.topnav_box p{
+	margin:0 0 10px;
+}
+.domaincon .domain_box input[type="text"]{
+	line-height:40px;
+}	
+.domain_box .btn1 a{
+	padding:11px 14px;
+}
+.mainbox h3 {
+    border: medium none;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+	padding:0;
+	width:100%;
+}
+.copyrightcon{
+	padding:15px 2%;
+}
+.copyright p{
+	line-height:28px;
+}
+/******SUB PAGE**********/
+.featurebox .smallbox3 {
+    margin: 0 0 10px !important;
+    width: 96% !important;
+	text-align:center !important;
+}
+.feature_tabs > div{
+	margin-bottom:10px;
+}
+.feature_tabs > div .smallbox3:last-child{
+	margin:0 !important;
+}
+.feature_tabs .smallbox .icon {
+    display: inline-block;
+    float: none !important;
+    margin: 0 auto;
+}
+.featurebox .smallbox3 .tab_text {
+    float: none !important;
+    width: 100%;
+}
+.box1 .img_holder{
+	margin-left:40px;
+	text-align:center;
+}
+.box1 .img_holder img{
+	width:50%;
+}
+.box1 .img_holder{
+	height:auto;
+	margin-left:0;
+}
+.cpanel_box .box_lt .img_holder{
+	height:auto;
+}
+.cpanel_box .box_lt .img_holder img{
+	width:50%;
+}
+/***********CONTACT PAGE************/
+.formbox ul.list2 li:first-child{
+	width:16%;
+}
+.contact_box{
+	padding:20px 2%;
+	width:96%;
+}
+.contact_box h4 {
+    font-size: 30px;
+    line-height: 32px;
+}
+/******** about page***********/
+.tabs_box ul.tabs li{
+	width:31% !important;
+}
+.about_content{
+	padding:0 2%;
+	width:96%;
+}
+
+}
+@media screen and (max-width: 600px){
+.domaincon .domain_box .search{
+	width:85%;
+	margin:0 0 10px;
+}
+.domain_lable ul li, .domain_lable ul li span{
+	font-size:16px;
+	line-height:24px;
+}
+.mainbox h3{
+	margin:0 0 20px;
+}
+.paddindbox{
+	padding:30px 2%;
+}
+.supportbox h3, .call-text .phone{
+	font-size:20px;
+	line-height:24px;
+}
+}
+@media screen and (max-width: 480px){
+.banner h1{
+	font-size:38px;
+	line-height:42px;
+}
+.banner_text .dollar {
+    font-size: 29px;
+    line-height: 31px;
+}
+.banner h2{
+	font-size:20px;
+	line-height:22px;
+}
+.domaincon .domain_box .search{
+	width:90%;
+}
+.supportbox h3, .call-text .phone{
+	font-size:18px;
+	line-height:22px;
+}
+.call-text{
+	margin:30px 0 0;
+}
+.call-text .phone span{
+	font-size:40px;
+}
+.hosting p{
+	line-height:24px;
+}
+.hosting h3{
+	margin:0 0 10px;
+}
+.banner{
+	padding:30px 2%;
+}
+/***********SUB PAGE*********/
+.cpanel_box > .box_rt{
+	text-align:center;
+}
+.box1 .img_holder{
+	float:none;
+	margin:0 0 10px;
+	display:inline-block;
+}
+.box1{
+	width:96%;
+	padding:0 2%;
+	text-align:center;
+}
+.box1 .btn1 {
+    display: inline-block;
+    float: none;
+}
+.cpanel_box .box_rt ul li{
+	font-size:14px;
+	line-height:28px;
+}
+.sub_banner_text h1{
+	font-size:35px;
+	line-height:40px;
+}
+.sub_banner_box{
+	padding:20px 2%;
+}
+/********CONTACT PAGE*******/
+.formbox ul.list1 li{
+	width:92%;
+}
+.formbox ul.list1 li:last-child{
+	width:100%;
+	padding:0 2%;
+}
+.formbox ul.list2 li:first-child{
+	width:23%;
+}
+.feature_tabs .smallbox4, .feature_tabs .smalbox_last {
+	text-align:center;
+}
+.feature_tabs .smallbox4 .icon, .feature_tabs .smalbox_last .icon {
+    display: inline-block;
+    float: none !important;
+    margin: 0 auto;
+}
+.featurebox .smallbox4 .tab_text, .feature_tabs .smalbox_last .tab_text {
+    float: none !important;
+    width: 100%;
+}
+/************* about page *****************/
+.tabs_box ul.tabs li{
+    width: 30% !important;
+}
+.tabs_innerbox, .tabs_box{
+	text-align:center !important;
+}
+.team_social{
+	float:none;
+	display:inline-block;
+}
+.team_social ul li{
+	float:none;
+	display:inline-block;
+}
+.about_content p{
+	font-size:14px;
+}
+	
+}
+
+@media screen and (max-width: 375px){
+.feature_tabs .smallbox{
+	text-align:center;
+}
+.feature_tabs .smallbox .icon{
+	margin:0 0 10px;
+}
+.feature_tabs .smallbox .icon, .feature_tabs .smallbox .tab_text{
+	float:none !important;
+	display:inline-block;
+}
+.feature_tabs .smallbox .tab_text{
+	width:100%;
+	line-height:24px;
+}
+.mainbox h3{
+	font-size:24px;
+	line-height:30px;
+}
+.supportbox::before{
+	display:none;
+}
+.supportbox h3, .call-text{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	padding:10px 0;
+}
+.call-text{
+	float:none;
+	padding:0;
+	margin:0;
+}
+.supportbox{
+	padding:0 0 10px;
+}
+.call-text .phone{
+	float:none;
+}
+.banner .btn1{
+	margin:0 0 10px;
+}
+.banner .btn2{
+	margin:0;
+}
+.banner .btn1 a{
+	padding:14px 40px;
+}
+.banner .btn2 a{
+	padding:14px 60px;
+}
+.domaincon .domain_box input[type="text"]{
+	width:70%;
+}
+/*************about page****************/
+.tabs_box ul.tabs li{
+	width:30.5% !important;
+	margin-right:10px !important;
+}
+.team_box h4{
+	font-size:20px;
+	line-height:22px;
+}
+.team_box p{
+	font-size:14px;
+}
+.about_content p{
+	margin:0 0 5px;
+}
+/********* CONTACT PAGE***********/
+.formbox ul.list2 li:first-child{
+	width:28%;
+}
+.formbox ul.list2 li{
+	margin:0 5px 0 0;
+}
+.formbox ul.list2 li .btn1 a{
+	font-size:12px;
+}

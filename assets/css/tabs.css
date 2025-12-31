@@ -1,0 +1,51 @@
+.tabs_box{
+	float:left;
+	width:100%;
+	margin:0;
+}
+.tabs_box ul.tabs{
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.tabs_box ul.tabs li{
+	display: inline-block;
+ 	*display:inline;
+	vertical-align:top;
+	width:340px;
+	margin-right:20px;
+	float:left;
+}
+.tabs_box ul.tabs li .team_img{
+	float:left;
+}
+.tabs_box ul.tabs li .team_img a{
+	display:block;
+	float:left;
+	position:relative;
+}
+.tabs_innerbox {
+	float: left;
+	width: 100%;
+	padding:0px 0 0;
+}
+.tabs_box ul.tabs li .team_img a.current img{
+	box-shadow:0 0 0 7px #0099cc;
+}
+.tabs_box ul.tabs li .team_img a.current::after{
+	position:absolute;
+	right:0;
+	height:21px;
+	content:"";
+	left:0;
+	bottom:-11px;
+	background:url(../images/arrow_down.png) no-repeat center bottom;
+}
+@media screen and (max-width: 360px){
+.tabs_box ul.tabs li{
+	width:30.2% !important;
+}
+}

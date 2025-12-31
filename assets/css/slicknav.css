@@ -1,0 +1,306 @@
+/**************************MENU*****************/
+aside.menubox {
+	float: right;
+}
+#nav {
+	float: right;
+}
+#nav ul {
+	float: left;
+}
+#nav ul > li {
+	float: left;
+	padding: 0;
+	margin-left: 5px;
+	position: relative;
+}
+#nav ul > li:first-child {
+	margin-left:0;
+}
+#nav ul > li:last-child {
+	border-right: none;
+	margin-right: 0;
+	margin-left:15px;
+}
+#nav ul > li > a {
+	color: #36322f;
+	display: block;
+	font-size: 14px;
+	font-weight:400;
+	line-height: 14px;
+	border-radius:2px;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in-out 0s;
+	padding: 14px 15px
+}
+#nav ul > li.spacial_btn a{
+	background:#0099cc;
+	color:#fff;
+	padding:13px 21px;
+}
+#nav ul > li.spacial_btn:hover a{
+	box-shadow:none;
+	color:#fff;
+	background:#358AD9;
+}
+#nav ul > li:last-child > a {
+	border-right: none;
+}
+#nav > ul > li a:hover, #nav > ul > li.current > a {
+	box-shadow:0px 0px 0px 1px #358AD9 inset;
+	color:#358AD9;
+}
+/* Submenu */
+#nav li ul {
+	left: -1px;
+	top: 42px;
+	margin: 0 0 0 1px;
+	padding: 0 0 30px 0;
+	position: absolute;
+	display: none;
+    z-index: 5;
+}
+#nav ul ul:before {
+	content: "";
+    display: block;
+    height: 10px;
+}
+#nav li:hover > ul {
+	display: block
+}
+#nav li ul li, #nav li ul li a {
+	float: none;
+}
+#nav li ul li {
+	margin: 0;
+	padding: 0;
+	border: none;
+	_display: inline; /* for IE6 */
+}
+#nav li ul li a {
+	white-space: nowrap;
+	display: block;
+	color: #000;
+	padding: 0 10px;
+	line-height: 49px;
+	background: #fff;
+	border-top: none;
+	text-transform:capitalize;
+	box-shadow:0px 0px 0px 1px #f1f1f1;
+	text-align: left;
+	width: 250px;
+}
+#nav li ul li:first-child a:after {
+	background: none;
+}
+#nav li ul li:hover > a {
+	background:#f1f1f1;
+	color: #293036;
+	border-radius: 0px;
+	border-top: none;
+	box-shadow:none;
+}
+#nav li ul li:last-child{
+	margin-left:0;
+	float:left;
+}
+/* SUBSUB Menu */
+
+#nav li ul li ul {
+	display: none;
+}
+#nav li ul li:hover ul {
+	left: 100%;
+	top: 0;
+}
+
+.badge{margin-left: 6px
+}
+
+.badge-new{background-color: #49b512
+}
+
+.badge-primary{background-color: #123cb5
+}
+
+/*
+    Mobile Menu Core Style
+*/
+.slicknav_btn {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	float: right;
+	padding: 7px 0;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1.125em;
+	cursor: pointer;
+}
+.slicknav_btn:hover {
+	text-decoration: none;
+}
+.slicknav_menu .slicknav_menutxt {
+	display: block;
+	line-height: 30px;
+	float: none;
+}
+.slicknav_menu .slicknav_icon {
+	float: left;
+	display: none;
+	margin: 0.188em 0 0 0.438em;
+}
+.slicknav_menu .slicknav_no-text {
+	margin: 0
+}
+.slicknav_menu .slicknav_icon-bar {
+	display: block;
+	width: 1.125em;
+	height: 0.125em;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+}
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+	margin-top: 0.188em
+}
+.slicknav_nav {
+	clear: both
+}
+.slicknav_nav ul, .slicknav_nav li {
+	display: block;
+	border-top: 1px solid #ccc;
+}
+.slicknav_nav ul li:first-child {
+	border: none;
+}
+.slicknav_nav li.slicknav_open {
+	color: #fff;
+	background: #242424;
+}
+.slicknav_nav .slicknav_arrow {
+	font-size: 0.8em;
+	margin: 0 0 0 0.4em;
+}
+.slicknav_nav .slicknav_item {
+	display: block;
+	cursor: pointer;
+}
+.slicknav_nav a {
+	display: block
+}
+.slicknav_nav .slicknav_item a {
+	display: inline
+}
+.slicknav_menu:before, .slicknav_menu:after {
+	content: " ";
+	display: table;
+}
+.slicknav_menu:after {
+	clear: both
+}
+/* IE6/7 support */
+.slicknav_menu {
+}
+/* 
+    User Default Style
+    Change the following styles to modify the appearance of the menu.
+*/
+
+.slicknav_menu {
+	width: 100%;
+	font-size: 16px;
+}
+/* Button */
+.slicknav_btn {
+	margin: 0px;
+	text-decoration: none;
+	text-shadow: none;
+	background: #18a3d3;
+}
+/* Button Text */
+.slicknav_menu .slicknav_menutxt {
+	color: #FFF;
+	font-weight: bold;
+	text-shadow: none;
+	text-align: center;
+}
+/* Button Lines */
+.slicknav_menu .slicknav_icon-bar {
+	background-color: #f5f5f5;
+}
+.slicknav_nav {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	background: #18a3d3;
+	font-size: 0.875em;
+}
+.slicknav_nav, .slicknav_nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+.slicknav_nav ul {
+	padding: 5px 20px;
+	margin: 0;
+	background: #0099cc;
+}
+.slicknav_nav ul ul {
+	background: #0099cc;
+}
+.slicknav_nav .slicknav_item {
+	padding: 5px 10px;
+	margin: 0px;
+}
+.slicknav_nav a {
+	padding: 5px 10px;
+	margin: 0;
+	font-weight:400;
+	text-decoration: none;
+	color: #fff;
+	text-transform:uppercase;
+}
+.slicknav_nav .slicknav_item a {
+	padding: 0;
+	margin: 0;
+}
+.slicknav_nav .slicknav_item:hover, .slicknav_nav a:hover {
+	color: #fff;
+	background: #358AD9;
+}
+.slicknav_nav .slicknav_item:hover a {
+	color: #fff;
+}
+.slicknav_nav .slicknav_txtnode {
+	margin-left: 15px;
+}
+.slicknav_menu {
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+ #nav {
+	display: none  !important;
+}
+.slicknav_menu {
+	display: block !important;
+}
+.menubox {
+	width: 100%;
+	text-align:left;
+	float:left;
+}
+.contactus_box img{
+	display:none;
+}
+.banner{
+	text-align:center;
+}
+}
+
+/* CSS Document */
+

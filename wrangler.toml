@@ -1,0 +1,3 @@
+name = "my-worker"
+main = "src/index.js" # change to your script path
+compatibility_date = "2026-01-01"
